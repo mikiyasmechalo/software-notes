@@ -19,8 +19,8 @@ This guide explains how your automated Obsidian-to-Web publishing system works, 
 |  C:\Users\JustMikiy\Documents\vscode\software-notes\content |
 +-------------------------------------------------------------+
                               |
-               Scheduled Task (every 10 minutes)
-                  sync-notes.ps1 (git push)
+               Scheduled Task (every 4 hours)
+                  silent-sync.vbs -> sync-notes.ps1
                               v
 +-------------------------------------------------------------+
 |                     GitHub Repository                       |
@@ -39,7 +39,7 @@ This guide explains how your automated Obsidian-to-Web publishing system works, 
 ### Key Principles
 1. **Zero Duplicate Copies:** The `Study` folder in Obsidian is a NTFS directory junction pointing directly into `software-notes\content`. There is only one copy on disk.
 2. **Untouched Vault Folders:** Only `Study/` is linked and published. All other folders (`Daily Notes`, `Ideas`, `Learn`, `.obsidian`, etc.) are completely isolated.
-3. **Automated Publishing:** A lightweight background job pushes changes every 10 minutes. GitHub Actions builds and updates the live site automatically.
+3. **Automated Publishing:** A lightweight background job pushes changes every 4 hours silently without any console popup. GitHub Actions builds and updates the live site automatically.
 
 ---
 

@@ -2,7 +2,7 @@
 title: Miki's Course Notes
 ---
 
-Welcome to my course notes. These notes are written and organized directly in Obsidian and published automatically to the web.
+Notes are published automatically to the web from Obsidian.
 
 > [!TIP] Quick Search
 > Press <kbd>Ctrl</kbd> + <kbd>K</kbd> (or <kbd>/</kbd>) anywhere to instantly search across all notes, topics, formulas, and diagrams.
@@ -10,9 +10,6 @@ Welcome to my course notes. These notes are written and organized directly in Ob
 ---
 
 ## Current Semesters
-
-Here are the courses currently in progress:
-
 ### BSc - Year 5, Semester 1
 - **[[BSc/Year-5-Sem-1/CSS|Computer System Security (CSS)]]** 
 - **[[BSc/Year-5-Sem-1/DS|Distributed Systems (DS)]]** 

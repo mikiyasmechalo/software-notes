@@ -451,7 +451,7 @@ for _ in range(num_simulations):
 	test_duration = triangular_sample(2, 3, 5) # Testing
 	deploy_duration = triangular_sample(1, 2, 3) # Deployment
 	# Calculate total duration for the project
-	total_duration = req_duration + design_duration + dev_duration+test_duration
+	total_duration = req_duration + design_duration + dev_duration+test_duration + deploy_duration
 	total_durations.append(total_duration)
 
 # Analyze results
